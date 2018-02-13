@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+<style >
+#formdiv{
+  position: relative;
+  top:70px;
+  left: 40%;
+
+  width: 500px;
+
+}
+body{
+  background-color: rgba(102, 79, 130, 0.78);
+}
+
+
+
+
+  small{
+    position: relative;
+    margin-up:20px;
+  }
+  label{
+    position: relative;
+    right: 80px;
+    top:40px;
+    font-variant: small-caps;
+
+  }
+
+</style>
+  </head>
+  <body>
+  <div id="formdiv">
+
+    <h1 style="font-family:Courier New;position:relative;left:40px;">Customer Details</h1>
+
+    <form method="post" action="">
+
+  <label >date</label><div div='d1'><input type="text" class="form-control" id="date" placeholder="date" name='date'></div>
+   <label>name</label><div div='d2'><input type="text" class="form-control" id="name" placeholder="Name" name='name'></div>
+   <label>Fname</label>  <div div='d3'><input type="text" class="form-control" id="fname" placeholder="Fame" name='fname'></div></br>
+    <label >Gender</label><div div='d4' style="position:relative;left:20px;top:10px;"><div style="display:inline;margin-left:20px;"><small style="position:relative;bottom:3px;margin-right:5px;">Male</small><input type="checkbox" class="form-check-input" name='gender' value='Male'></div><div style="display:inline;margin-left:40px";><small style="position:relative;bottom:3px;margin-right:5px;">Female</small>
+    <input type="checkbox" class="form-check-input" name='gender' value="Female"></div></div>
+  <label>Mobile</label>  <div div='d5'><input type="text" class="form-control" id="mobile" placeholder="mobile_no">  </div>
+    <label>Email</label> <div div='d6'><input type="text" class="form-control" id="email" placeholder="email"></div>
+    <label>Address</label> <div div='d7'><input type="text" class="form-control" id="address" placeholder="address"></div>
+    <label>Balance</label> <div div='d8'><input type="text" class="form-control" id="balance" placeholder="balance"></div>
+    <input style="position:relative;top:50px;left:100px;" type="submit" name="add_submit" value="Update" class="btn btn-primary"  />
+    <button style="position:relative;top:50px;left:200px;" type="button"  value="Cancel" class="btn btn-danger"  />Cancel</button>
+
+  </form>
+  </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+  </body>
+</html>

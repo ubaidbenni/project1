@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+<style >
+
+@media only screen and (min-width: 0px) and (max-width:1200px){
+  h1{
+    font-size: 20px;
+    color:rgb(244, 238, 237);
+    text-align:center;
+    position: relative;
+    top:10px;
+
+  }
+  body{
+    background-image: url("backg3.png");
+     background-repeat: repeat-x;
+  }
+
+  #ux{
+    position: relative;
+    top:35px;
+    left:150px;
+
+  }
+  #but{
+    position: relative;
+    top:35px;
+    left:80px;
+
+  }
+  .btn.btn-primary{
+    height:30px;
+    font-size:10px;
+
+  }
+
+
+}
+
+
+
+
+
+  small{
+    position: relative;
+    margin-up:10px;
+    color:rgb(250, 250, 250);
+  }
+
+
+  .form-control{
+    margin-top: 10px;
+  }
+  .col-xs{
+    color: red;
+
+
+  }
+
+</style>
+  </head>
+  <body>
+<h1 style="font-family:Courier New;" class="text-lg-center" >Customer Details</h1>
+<div class="container" style="background-color:;position:relative;top:10px;">
+<div class="row" style="background-color;">
+
+
+  <div id="formdiv"  class="col-xs-12 col-sm-12 col-md-12">
+
+
+
+    <form method="post" action="add_customer.php">
+
+<div div='d1'><input type="text" class="form-control" id="date" placeholder="date" name='date'></div>
+   <div div='d2'><input type="text" class="form-control" id="name" placeholder="Name" name='name'></div>
+   <div div='d3'><input type="text" class="form-control" id="fname" placeholder="Fame" name='fname'></div></br>
+    <div div='d4' style="position:relative;left:20px;top:10px;"><div style="display:inline;margin-left:20px;"><small style="position:relative;bottom:3px;margin-right:5px;">Male</small><input type="radio" class="form-check-input" name="gender" value="male"></div><div style="display:inline;margin-left:40px";><small style="position:relative;bottom:3px;margin-right:5px;">Female</small>
+  <input type="radio" class="form-check-input" name="gender" value="Female"></div></div>
+    <div div='d5'><input type="text" class="form-control" id="mobile" name="mob_no" placeholder="mob_no">  </div>
+     <div div='d6'><input type="text" class="form-control" id="email" name="email" placeholder="email"></div>
+ <div div='d7'><input type="text" class="form-control" id="address" name="address" placeholder="address"></div>
+  <div div='d8'><input type="text" class="form-control" id="balance" name="balance" placeholder="balance"></div>
+    <input  id="but" type="submit" class="btn btn-primary" name="add" value="Submit"  />
+    <a id="ux" href='choice.php'><button  type="button"  class="btn btn-primary" value="Cancel"  />Cancel</button></a>
+
+  </form>
+  </div>
+</div>
+</div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+  </body>
+</html>
